@@ -51,6 +51,18 @@ def get_nearby_or_create_factories(request):
 @api_view(['PUT'])
 def update_factory_attribute(request, factory_id):
     # TODO
+    #@api_view(['PUT'])
+def update_factory_attribute(request, factory_id):
+    # TODO
+    # pipenv install
+    # pipenv install shell
+    # git branch issue-name
+    # ...
+    # git push origin issue-name
+
+    # factory = Factory.objects.get(pk=factory_id)
+    # factory.update(pk=factory_id)
+    return HttpResponse(factory_id)
     pass
 
 
