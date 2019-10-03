@@ -58,6 +58,7 @@ def update_factory_attribute(request, factory_id):
     # pipenv install shell
     # git branch issue-name
     # ...
+    # git pull
     # git push origin issue-name
 
     # factory = Factory.objects.get(pk=factory_id)
